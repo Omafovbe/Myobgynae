@@ -122,3 +122,4 @@ dist
 
 # tailwindcss output
 # src/styles/tailwind.output.css
+.vercel
