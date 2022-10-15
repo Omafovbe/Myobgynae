@@ -4,7 +4,7 @@ import { Switch, Route } from "react-router-dom";
 
 import "./styles/tailwind.output.css";
 import LandingPage from './pages/index';
-import AboutUs from './pages/about-us';
+// import AboutUs from './pages/about-us';
 import LoginPage from './pages/login';
 import RegisterPage from './pages/register';
 
