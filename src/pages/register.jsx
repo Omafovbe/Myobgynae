@@ -6,7 +6,7 @@ export default function RegisterPage() {
                 <div>
                     <a href="/">
                         <h3 className="text-4xl font-bold text-purple-600">
-                            Gynae App
+                        Myobgynae
                         </h3>
                     </a>
                 </div>
