@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route } from 'react-router-dom';
 
-import "./styles/tailwind.output.css";
+import './styles/tailwind.output.css';
 import LandingPage from './pages/index';
 // import AboutUs from './pages/about-us';
 import LoginPage from './pages/login';
@@ -14,7 +14,7 @@ function App() {
       <Route exact path={`${process.env.PUBLIC_URL}/`}>
         <LandingPage />
       </Route>
-      {/* <Route path="/about-us">
+      {/* <Route>
         <AboutUs />
       </Route> */}
       <Route path="/login">

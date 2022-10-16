@@ -6,7 +6,7 @@ import fDoc from '../../images/lady_doc.png';
 import Testimonials from './testimonials';
 
 const AboutContainer = () => (
-  <section className="relative">
+  <section className="relative" name="about-us">
     <div
       className="bg-cover bg-no-repeat w-full h-full absolute inset-0"
       style={{ backgroundImage: `url(${bgImage})` }}
@@ -32,25 +32,16 @@ const AboutContainer = () => (
                 className="h1 capitalize font-poppins text-3xl lg:text-5xl font-bold text-grayish-900 text-center lg:text-left leading-8"
                 style={{ lineHeight: 1.3 }}
               >
-                <span className="text-primary-900 pr-4">Zinny</span>EyeCare
-                Vision &amp; Mission
+                <span className="text-primary-900 pr-4">Myobgynae</span>
               </h1>
             </div>
             <p className="text-gray-600 lg:text-lg">
-              At <strong>Zinny EyeCare, </strong> our vision is to be a role
-              model for international standarda healthcare. Our mission is to
-              always strive to provide the best quality treatment and patient
-              care by professionals who are competent in their fields with high
-              ethics.
+              At <strong>Myobgynae, </strong> our vision is to be a role model
+              for international standarda healthcare. Our mission is to always
+              strive to provide the best quality treatment and patient care by
+              professionals who are competent in their fields with high ethics.
             </p>
-            <p className="text-gray-600 lg:text-lg pt-3">
-              At Zinny Eye Center, you will find yourself at home in the hands
-              of caring doctors who all have the same goal; to give your eyes
-              the best care possible. We understand how unique your eyes are and
-              offer personalized care. Whether treating or diagnosing, our
-              surgeons are here to take care of you. Come see why Zinny Eye
-              Center has been the first choice for many in eye care.
-            </p>
+            \
           </div>
         </div>
       </div>

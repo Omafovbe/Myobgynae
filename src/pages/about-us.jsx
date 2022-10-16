@@ -1,17 +1,17 @@
-import React from 'react';
+// import React from 'react';
 
-import Footer from '../components/footer/footer';
-import Header from '../components/header/header';
-import AboutContainer from '../containers/about/aboutContainer';
+// import Footer from '../components/footer/footer';
+// import Header from '../components/header/header';
+// import AboutContainer from '../containers/about/aboutContainer';
 
-function AboutUs (){
-  return (
-    <>
-      <Header />
-      <AboutContainer />
-      <Footer />
-    </>
-  )
-}
+// function AboutUs() {
+//   return (
+//     <>
+//       <Header />
 
-export default AboutUs;
+//       <Footer />
+//     </>
+//   );
+// }
+
+// export default AboutUs;

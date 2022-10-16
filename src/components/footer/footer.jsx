@@ -7,12 +7,17 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
 
+import { animateScroll as scroll } from 'react-scroll';
+
 import circles from '../../images/circles.png';
-import logo from '../../images/logo.png';
+import logo from '../../images/gyne-2.png';
 
 export default function Footer() {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
   return (
-    <section className="relative footer">
+    <section className="relative footer" name="footer">
       <img
         src={circles}
         alt=""
@@ -37,7 +42,10 @@ export default function Footer() {
             {/*  */}
             <div className="sm:col-span-2">
               <div className="mt-">
-                <Link to="/" className="flex items-center space-x-3">
+                <Link
+                  className="flex items-center space-x-3"
+                  onClick={toggleHome}
+                >
                   <img
                     src={logo}
                     alt="logo"
