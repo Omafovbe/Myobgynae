@@ -37,7 +37,7 @@ const HeroHome = () => {
                 Health Here
               </h1>
               <p className="text-gray-700 leading-9 text-base sm:text-lg font-medium">
-                Be among Avail yourself the benefit from specialist care of
+                Do avail yourself the benefit from specialist care of
                 various Gynaecological conditions from our Consultant
                 Gynaecologist
               </p>

@@ -200,7 +200,7 @@ export default function Footer() {
           <div className="mt-10 border-t-2">
             <div className="pt-8 pb-5 mx-auto max-w-3xl">
               <p className="font-medium text-center">
-                &copy; Copyright {new Date().getFullYear()} Gynae App, Inc. All
+                &copy; Copyright {new Date().getFullYear()} Myobgynae, Inc. All
                 rights reserved.
               </p>
               <p className="pt-3 text-sm text-center">
@@ -212,7 +212,7 @@ export default function Footer() {
                 >
                   MIT law.
                 </a>
-                The content on Zinny Eyecare does not provide medical advice.
+                The content on Myobgynae does not provide medical advice.
                 Always consult a medical provider for diagnosis and treatment.
               </p>
               {/* Socials */}
