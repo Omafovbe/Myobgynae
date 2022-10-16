@@ -41,12 +41,11 @@ const AboutContainer = () => (
               strive to provide the best quality treatment and patient care by
               professionals who are competent in their fields with high ethics.
             </p>
-            \
           </div>
         </div>
       </div>
       <div className="grid lg:grid-cols-2 gap-x-4 gap-y-6 pt-8 mt-4 lg:pt-20 z-20">
-        <div className="lg:col-span-1">
+        <div className="lg:col-span-1" name="why-us">
           <div>
             <div className="flex flex-col item-center lg:items-start space-y-4 mb-5">
               <p className="text-primary-900 font-semibold text-lg text-center lg:text-left">

@@ -6,6 +6,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { Link } from 'react-router-dom';
+import { Link as LinkScroll } from 'react-scroll';
 
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -40,7 +41,7 @@ export default function Footer() {
           </div>
           <div className="mt-20 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-y-5 gap-x-7">
             {/*  */}
-            <div className="sm:col-span-2">
+            <div className="sm:col-span-2" name="contact-us">
               <div className="mt-">
                 <Link
                   className="flex items-center space-x-3"
@@ -77,40 +78,64 @@ export default function Footer() {
                 </h3>
                 <ul className="flex flex-col space-y-2">
                   <li>
-                    <Link
+                    <LinkScroll
                       to="about-us"
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact="true"
+                      offset={-80}
+                      activeClass="active"
                       className="text-gray-800 hover:text-primary-900"
                     >
                       About us
-                    </Link>
+                    </LinkScroll>
                   </li>
                   <li>
-                    <Link
-                      to="about-us"
+                    <LinkScroll
+                      to="doctors"
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact="true"
+                      offset={-80}
+                      activeClass="active"
                       className="text-gray-800 hover:text-primary-900"
                     >
                       Doctors
-                    </Link>
+                    </LinkScroll>
                   </li>
                   <li>
-                    <Link
-                      to="about-us"
+                    <LinkScroll
+                      to="why-us"
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact="true"
+                      offset={-80}
+                      activeClass="active"
                       className="text-gray-800 hover:text-primary-900"
                     >
                       Blog
-                    </Link>
+                    </LinkScroll>
                   </li>
                   <li>
-                    <Link
+                    <LinkScroll
                       to="about-us"
+                      smooth={true}
+                      duration={500}
+                      spy={true}
+                      exact="true"
+                      offset={-80}
+                      activeClass="active"
                       className="text-gray-800 hover:text-primary-900"
                     >
                       Careers
-                    </Link>
+                    </LinkScroll>
                   </li>
                   <li>
                     <Link
-                      to="about-us"
+                      to="/login"
                       className="text-gray-800 hover:text-primary-900"
                     >
                       Help
@@ -118,7 +143,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      to="sign-up"
+                      to="/sign-up"
                       className="text-gray-800 hover:text-primary-900"
                     >
                       Sign up
@@ -126,7 +151,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      to="login"
+                      to="/login"
                       className="text-gray-800 hover:text-primary-900"
                     >
                       Sign in
@@ -212,8 +237,8 @@ export default function Footer() {
                 >
                   MIT law.
                 </a>
-                The content on Myobgynae does not provide medical advice.
-                Always consult a medical provider for diagnosis and treatment.
+                The content on Myobgynae does not provide medical advice. Always
+                consult a medical provider for diagnosis and treatment.
               </p>
               {/* Socials */}
               <ul className="py-6 flex items-center justify-center flex-wrap space-x-6 divide">
