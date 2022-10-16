@@ -58,17 +58,17 @@ module.exports = {
       },
     },
   },
-  variants: {
-    // extend: {
-    backgroundColor: ['responsive', 'hover', 'focus', 'group-hover', 'checked'],
-    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
-    translate: ['responsive', 'hover', 'focus', 'group-hover'],
-    boxShadow: ['responsive', 'hover', 'focus', 'focus-within'],
-    opacity: ['responsive', 'hover', 'focus', 'group-hover'],
-    border: ['responsive', 'hover', 'focus', 'group-hover'],
-    ring: ['responsive', 'focus'],
-    borderColor: ['checked', 'hover'],
-    // },
-  },
+  // variants: {
+  //   // extend: {
+  //   backgroundColor: ['responsive', 'hover', 'focus', 'group-hover', 'checked'],
+  //   textColor: ['responsive', 'hover', 'focus', 'group-hover'],
+  //   translate: ['responsive', 'hover', 'focus', 'group-hover'],
+  //   boxShadow: ['responsive', 'hover', 'focus', 'focus-within'],
+  //   opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+  //   border: ['responsive', 'hover', 'focus', 'group-hover'],
+  //   ring: ['responsive', 'focus'],
+  //   borderColor: ['checked', 'hover'],
+  //   // },
+  // },
   plugins: [],
 };
